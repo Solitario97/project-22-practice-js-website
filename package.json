@@ -4,7 +4,9 @@
   "description": "javascript ",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel ./src/index.html"
+    "serve": "parcel ./src/index.html -p 5000 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+
   },
   "repository": {
     "type": "git",

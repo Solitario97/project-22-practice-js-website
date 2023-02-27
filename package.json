@@ -1,0 +1,26 @@
+{
+  "name": "project-22-practice-js-website",
+  "version": "1.0.0",
+  "description": "javascript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solitario97/project-22-practice-js-website.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Amir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solitario97/project-22-practice-js-website/issues"
+  },
+  "homepage": "https://github.com/Solitario97/project-22-practice-js-website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

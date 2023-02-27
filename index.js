@@ -48,17 +48,10 @@ function text(block) {
 }
 
 function columns(block) {
-    let html = '';
-    block.value.forEach(item => {
-        html += `
-            <div class="col-sm">
-                ${item}
-            </div>
-        `
-    });
+    const html = block.value.map(item => `<div class="col-sm">${item}</div>`);
     return `
         <div class="row">
-           ${html} 
+            ${html.join('')}
         </div>
     `
 }

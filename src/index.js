@@ -19,4 +19,3 @@ model.forEach(block =>{
 
     site.insertAdjacentHTML("beforeend", html);
 });
-

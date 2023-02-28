@@ -2,7 +2,7 @@
   "name": "project-22-practice-js-website",
   "version": "1.0.0",
   "description": "javascript ",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "serve": "parcel ./src/index.html -p 5000 --open",
     "build": "parcel build ./src/index.html --no-source-maps"

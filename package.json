@@ -1,27 +1,19 @@
 {
-  "name": "project-22-practice-js-website",
+  "name": "js-constructor",
   "version": "1.0.0",
-  "description": "javascript ",
+  "description": "javascript pure application",
   "main": "src/index.js",
   "scripts": {
-    "serve": "parcel ./src/index.html -p 5000 --open",
+    "serve": "parcel ./src/index.html -p 4200 --open",
     "build": "parcel build ./src/index.html --no-source-maps"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Solitario97/project-22-practice-js-website.git"
   },
   "keywords": [
     "js",
     "javascript"
   ],
-  "author": "Amir",
+  "author": "Vladilen <v@mail.ru>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Solitario97/project-22-practice-js-website/issues"
-  },
-  "homepage": "https://github.com/Solitario97/project-22-practice-js-website#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.4"
   }
 }
